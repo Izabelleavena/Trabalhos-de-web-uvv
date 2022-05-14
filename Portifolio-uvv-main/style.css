@@ -1,0 +1,106 @@
+
+.conteudo-todo{
+    background-color:  #212529;
+}
+.navbar-brand.item-navbar{
+   font-family: sans-serif;
+   font-size: 20px;
+   text-shadow: rgb(155, 152, 152) 3px 2px 3px ;
+   color: white;
+}
+.navbar-brand.item-navbar:hover{
+    text-shadow: rgb(102, 5, 5) 3px 2px 3px ;
+    color: rgb(155, 152, 152);
+    transition: 0.7s;
+    font-weight: 400;
+ }
+ .conteudo-todo .nav-container{
+     border-bottom: 3px solid rgb(102, 5, 5);
+     width: 90%;
+     margin: auto;
+ }
+ 
+ .conteudo-todo .info{
+    color: rgb(155, 152, 152);
+    font-family: sans-serif;
+    text-shadow: rgb(0, 0, 0) 3px 2px 3px ;
+
+ }
+ .conteudo-todo .info.titulo{
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    text-shadow: rgb(0, 0, 0) 3px 2px 3px ;
+}
+.conteudo-todo .info.titulo:hover{
+    color:  rgb(102, 5, 5);
+    font-family: sans-serif;
+    text-shadow: rgb(255, 255, 255) 3px 2px 3px ;
+    cursor: pointer;
+    transition: 0.8s;
+    font-weight: 600;
+}
+
+ .conteudo-todo .conteudo-info{
+     margin-top: 80px;
+ }
+ .conteudo-info .incon{
+     color: beige;
+     margin-right: 10px;
+     font-size: 25px;
+ }
+ .conteudo-info .incon:hover{
+    color: rgb(102, 5, 5);
+    transition: 0.7s;
+    cursor: pointer;
+    text-shadow: white 1px 1px 1px;
+}
+.titulo.sobre-mim, .titulo.sobre-soft{
+    margin-top: 150px;
+    margin-bottom: 5px;
+}
+.sobre-mim {
+    text-align: center;
+    align-items: center;
+}
+
+.line-centralizada{
+   margin:auto;
+}
+.imagemFaculdade{
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 0.8s;
+}
+.imagemFaculdade:hover{
+    filter: grayscale(10%);
+    cursor: pointer;
+    transition: 0.8s;
+}
+.line{
+    height: 3px;
+    width: 100px;
+    background-color:  rgb(102, 5, 5);
+    margin-bottom: 40px;
+}
+footer{
+    margin-top: 100px;
+   
+}
+.line.line-footer{
+    width: 90%;
+    margin: auto;
+}
+.contato .info.titulo.sobre-mim{
+    margin-top: 40px !important;
+    
+}
+.contato{
+    padding-bottom: 40px;
+    
+}
+.navbar-brand.item-navbar.espaco{
+    margin-right: 190px;
+}
+.item-navbar.espaco.direita{
+    margin-left: 80px;
+}
